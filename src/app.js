@@ -39,7 +39,7 @@ app.use(sessions(
         resave: true, saveUninitialized: true,
         store: mongoStore.create(
             {
-                mongoUrl: 'mongodb+srv://oliveiradiogo00:z2xGXgqIUN2fgTzo@cluster0.pgeuig7.mongodb.net/?retryWrites=true&w=majority',
+                mongoUrl: 'mongodb+srv://oliveiradiogo00:*******@cluster0.pgeuig7.mongodb.net/?retryWrites=true&w=majority',
                 mongoOptions: { dbName: "ecommerce" },
                 ttl: 3600
             }
