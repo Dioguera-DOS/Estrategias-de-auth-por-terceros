@@ -9,9 +9,9 @@ const github = require('passport-github2');
 const initPassport = () => {
     passport.use('github', new github.Strategy(
         {
-            clienteID: 'Iv1.4d66f66fd893361c',
-            clienteSecret: '0f15ed1a1d6b615f5df3d2b7b05a6625ab7e61d9',
-            callbackURl: 'http://localhost:8080/api/sessions/callbackGithub',
+            clienteID: '',
+            clienteSecret: '',
+            callbackURl: '',
 
 
         },
